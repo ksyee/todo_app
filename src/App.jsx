@@ -12,7 +12,6 @@ function App() {
   const [activeList, setActiveList] = useState([]);
   const [completedList, setCompletedList] = useState([]);
   const [isDark, setIsDark] = useState(true);
-
   const inputData = (input) => {
     if (input === '') return;
     setActiveList([...activeList, input]);
