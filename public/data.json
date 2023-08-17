@@ -1,0 +1,7 @@
+{
+  "navMenu": ["all", "active", "completed"],
+  "todoList": {
+    "active": ["점심먹기", "청소하기"],
+    "completed": ["커피내리기"]
+  }
+}
